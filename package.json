@@ -1,0 +1,22 @@
+{
+  "name": "natron-web-prototype",
+  "version": "0.1.0",
+  "description": "Live prototype of Natron website concepts",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npx tailwind build styles/styles.css -o styles/output.css",
+    "start": "npx live-server"
+  },
+  "keywords": [
+    "prototype",
+    "ui",
+    "ui-design"
+  ],
+  "author": "Jacky Song",
+  "license": "GPL-3.0-or-later",
+  "devDependencies": {
+    "autoprefixer": "^10.0.4",
+    "postcss": "^8.1.13",
+    "tailwindcss": "^2.0.1"
+  }
+}
