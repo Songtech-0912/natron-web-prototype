@@ -1,3 +1,7 @@
+/* This is uncompiled css */
+/* Without compiling this first, this won't do anything */
+/* To compile the css, run 'npm run dev' in the project root */
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
