@@ -14,7 +14,7 @@ This repository is part design, part code. I think that each should work for the
 
 ## Get Started
 
-This repository is super simple to work with. I'm assuming you have `node.js`, `npm`, and `npx` preinstalled; if not, see [these instructions](doc/beginners-help.md) to get up to speed.
+This repository is super simple to work with. I'm assuming you have `node.js`, `npm`, and `npx` preinstalled; if not, see [these instructions](help/beginners-help.md) to get up to speed.
 
 First, clone this repository:
 
@@ -35,6 +35,6 @@ npm run dev
 npm run start
 ```
 
-This should automatically open your default browser to <http://localhost:8080>. If something weird happens, or the commands don't work as expected, see [docs/troubleshooting.md](docs/troubleshooting.md).
+This should automatically open your default browser to <http://localhost:8080>. If something weird happens, or the commands don't work as expected, see [help/troubleshooting.md](help/troubleshooting.md).
 
 ## Roadmap
