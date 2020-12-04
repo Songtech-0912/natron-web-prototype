@@ -14,6 +14,10 @@ module.exports = {
         dark: '#686e74', // primary dark
         DEFAULT: '#bcc0c2', // primary text
         light: '#fbfcfc', // primary bold
+      },
+      gradient: {
+        blue: '#4195f3', // gradient blue
+        purple: '#7e3bf1', // gradient purple
       }
     }
   }
