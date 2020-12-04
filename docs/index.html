@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Natron | Live Online Prototype</title>
+  <link href="styles/index.css" type="text/css" rel="stylesheet" />
+</head>
+
+<!-- In this prototyping period code comments like this -->
+<!-- will form the bulk of the project's documentation -->
+
+<!-- Note that all comments describe the element -->
+<!-- that is one line of code below the comment -->
+
+<body>
+  <!-- This div is used for the body background -->
+  <div class="h-screen bg-slate">
+
+    <header class="text-grey body-font">
+      <!-- Container for navbar -->
+      <div class="container flex flex-col flex-wrap items-center p-10 mx-auto md:flex-row">
+        <!-- Natron's logo text -->
+        <a class="flex items-center mb-4 font-medium title-font text-grey-light md:mb-0">
+          <span class="ml-3 text-xl cursor-pointer">Natron</span>
+        </a>
+        <!-- The navbar links -->
+        <nav class="flex flex-wrap items-center justify-center text-base cursor-pointer md:ml-auto md:mr-auto">
+          <a class="mr-12 hover:text-grey-light hover:underline">Home</a>
+          <a class="mr-12 hover:text-grey-light hover:underline">Features</a>
+          <a class="mr-12 hover:text-grey-light hover:underline">News</a>
+          <a class="mr-12 hover:text-grey-light hover:underline">Docs</a>
+          <a class="mr-12 hover:text-grey-light hover:underline">Forum</a>
+        </nav>
+        <!-- The button that links to Natron's git repository -->
+        <button
+          class="inline-flex items-center px-5 py-2 mt-0 text-base border-0 rounded-full bg-red focus:outline-none hover:bg-gray-300">
+          <!-- Github icon -->
+          <svg fill="#fbfcfc" xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24">
+            <!-- Forked from ionicons https://ionicons.com/v4/ -->
+            <path
+              d="M12 1.5C6.203 1.5 1.5 6.324 1.5 12.266c0 4.757 3.008 8.789 7.18 10.214.066.016.125.02.18.02.39 0 .538-.285.538-.535 0-.258-.007-.934-.015-1.832-.39.09-.742.125-1.059.125-2.02 0-2.48-1.57-2.48-1.57-.477-1.243-1.164-1.575-1.164-1.575-.914-.64-.008-.66.062-.66h.008c1.055.094 1.605 1.117 1.605 1.117.528.918 1.23 1.176 1.856 1.176.492 0 .937-.16 1.203-.281.094-.695.363-1.168.664-1.442-2.328-.27-4.781-1.195-4.781-5.32 0-1.176.406-2.137 1.078-2.887-.11-.27-.469-1.367.102-2.847 0 0 .078-.024.234-.024.383 0 1.238.145 2.656 1.13a9.978 9.978 0 012.63-.364c.89.008 1.788.125 2.628.363 1.414-.984 2.273-1.129 2.652-1.129.16 0 .235.024.235.024.574 1.48.21 2.578.105 2.847.668.754 1.078 1.715 1.078 2.887 0 4.137-2.457 5.047-4.797 5.313.375.332.711.988.711 1.992 0 1.437-.011 2.601-.011 2.953 0 .254.144.539.535.539a.827.827 0 00.187-.02c4.176-1.425 7.18-5.46 7.18-10.214C22.5 6.324 17.797 1.5 12 1.5zm0 0" />
+          </svg>
+          <span class="ml-1 text-grey-light">Github</span>
+        </button>
+      </div>
+    </header>
+    <!-- Hero section -->
+    <section class="text-gray body-font">
+      <div class="container flex flex-col items-center justify-center px-5 py-16 mx-auto">
+        <!-- Headline copy -->
+        <div class="w-full text-center lg:w-2/3">
+          <h1 class="mb-2 text-5xl font-bold text-red">Visual Effects without limits.</h1>
+          <h2 class="mb-8 text-5xl font-bold leading-snug text-grey-light">meet the first open-source tool for VFX and
+            motion graphics.</h2>
+          <div class="container items-center max-w-md mx-auto">
+            <p class="mb-8 text-grey">Deliver stunning results with Natron's production-tested <strong>node-based
+                workflow</strong>.</p>
+          </div>
+        </div>
+        <button
+          class="inline-flex items-center px-16 py-5 mt-4 transition duration-500 ease-in-out transform rounded-full text-grey-light bg-gradient-to-r from-gradient-purple to-gradient-blue focus:outline-none hover:-translate-y-1 hover:scale-105">
+          <span class="text-lg text-grey-light">Download Now</span>
+        </button>
+      </div>
+  </div>
+  </section>
+  <!-- Gallery below hero section -->
+  <!-- This has parts that are hidden from the page -->
+  </div>
+  <!-- Use both z-index and box shadows for the gallery on the hero page -->
+</body>
+
+</html>
