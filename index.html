@@ -1,115 +1,41 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Natron | Live Online Prototype</title>
-    <link href="styles/output.css" type="text/css" rel="stylesheet" />
-  </head>
-  <body>
-    <div
-      class="min-h-screen bg-gray-100 py-6 flex flex-col justify-center sm:py-12"
-    >
-      <div class="relative py-3 sm:max-w-xl sm:mx-auto">
-        <div
-          class="absolute inset-0 bg-gradient-to-r from-cyan-400 to-light-blue-500 shadow-lg transform -skew-y-6 sm:skew-y-0 sm:-rotate-6 sm:rounded-3xl"
-        ></div>
-        <div
-          class="relative px-4 py-10 bg-white shadow-lg sm:rounded-3xl sm:p-20"
-        >
-          <div class="max-w-md mx-auto">
-            <div><img src="https://play.tailwindcss.com/img/logo.svg" class="h-7 sm:h-8" /></div>
-            <div class="divide-y divide-gray-200">
-              <div
-                class="py-8 text-base leading-6 space-y-4 text-gray-700 sm:text-lg sm:leading-7"
-              >
-                <p>
-                  An advanced online playground for Tailwind CSS, including
-                  support for things like:
-                </p>
-                <ul class="list-disc space-y-2">
-                  <li class="flex items-start">
-                    <span class="h-6 flex items-center sm:h-7">
-                      <svg
-                        class="flex-shrink-0 h-5 w-5 text-cyan-500"
-                        viewBox="0 0 20 20"
-                        fill="currentColor"
-                      >
-                        <path
-                          fill-rule="evenodd"
-                          d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
-                          clip-rule="evenodd"
-                        />
-                      </svg>
-                    </span>
-                    <p class="ml-2">
-                      Customizing your
-                      <code class="text-sm font-bold text-gray-900"
-                        >tailwind.config.js</code
-                      >
-                      file
-                    </p>
-                  </li>
-                  <li class="flex items-start">
-                    <span class="h-6 flex items-center sm:h-7">
-                      <svg
-                        class="flex-shrink-0 h-5 w-5 text-cyan-500"
-                        viewBox="0 0 20 20"
-                        fill="currentColor"
-                      >
-                        <path
-                          fill-rule="evenodd"
-                          d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
-                          clip-rule="evenodd"
-                        />
-                      </svg>
-                    </span>
-                    <p class="ml-2">
-                      Extracting classes with
-                      <code class="text-sm font-bold text-gray-900"
-                        >@apply</code
-                      >
-                    </p>
-                  </li>
-                  <li class="flex items-start">
-                    <span class="h-6 flex items-center sm:h-7">
-                      <svg
-                        class="flex-shrink-0 h-5 w-5 text-cyan-500"
-                        viewBox="0 0 20 20"
-                        fill="currentColor"
-                      >
-                        <path
-                          fill-rule="evenodd"
-                          d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
-                          clip-rule="evenodd"
-                        />
-                      </svg>
-                    </span>
-                    <p class="ml-2">Code completion with instant preview</p>
-                  </li>
-                </ul>
-                <p>
-                  Perfect for learning how the framework works, prototyping a
-                  new idea, or creating a demo to share online.
-                </p>
-              </div>
-              <div
-                class="pt-6 text-base leading-6 font-bold sm:text-lg sm:leading-7"
-              >
-                <p>Want to dig deeper into Tailwind?</p>
-                <p>
-                  <a
-                    href="https://tailwindcss.com/docs"
-                    class="text-cyan-600 hover:text-cyan-700"
-                  >
-                    Read the docs &rarr;
-                  </a>
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Natron | Live Online Prototype</title>
+  <link href="styles/output.css" type="text/css" rel="stylesheet" />
+</head>
+
+<body>
+  <div class="bg-slate h-screen">
+    <header class="text-grey body-font">
+      <div class="container mx-auto flex flex-wrap p-10 flex-col md:flex-row items-center">
+        <a class="flex title-font font-medium items-center text-grey-light mb-4 md:mb-0">
+          <span class="ml-3 text-xl">Natron</span>
+        </a>
+        <nav class="md:ml-auto md:mr-auto flex flex-wrap items-center text-base justify-center">
+          <a class="mr-12 hover:text-grey">Home</a>
+          <a class="mr-12 hover:text-grey">Features</a>
+          <a class="mr-12 hover:text-grey">News</a>
+          <a class="mr-12 hover:text-grey">Docs</a>
+          <a class="mr-12 hover:text-grey">Forum</a>
+        </nav>
+        <button
+          class="inline-flex items-center bg-red border-0 focus:outline-none hover:bg-gray-300 rounded-full py-2 px-5 text-base mt-0">
+          <svg fill="#fbfcfc" xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24">
+            <!--Forked from ionicons https://ionicons.com/v4/-->
+            <path
+              d="M12 1.5C6.203 1.5 1.5 6.324 1.5 12.266c0 4.757 3.008 8.789 7.18 10.214.066.016.125.02.18.02.39 0 .538-.285.538-.535 0-.258-.007-.934-.015-1.832-.39.09-.742.125-1.059.125-2.02 0-2.48-1.57-2.48-1.57-.477-1.243-1.164-1.575-1.164-1.575-.914-.64-.008-.66.062-.66h.008c1.055.094 1.605 1.117 1.605 1.117.528.918 1.23 1.176 1.856 1.176.492 0 .937-.16 1.203-.281.094-.695.363-1.168.664-1.442-2.328-.27-4.781-1.195-4.781-5.32 0-1.176.406-2.137 1.078-2.887-.11-.27-.469-1.367.102-2.847 0 0 .078-.024.234-.024.383 0 1.238.145 2.656 1.13a9.978 9.978 0 012.63-.364c.89.008 1.788.125 2.628.363 1.414-.984 2.273-1.129 2.652-1.129.16 0 .235.024.235.024.574 1.48.21 2.578.105 2.847.668.754 1.078 1.715 1.078 2.887 0 4.137-2.457 5.047-4.797 5.313.375.332.711.988.711 1.992 0 1.437-.011 2.601-.011 2.953 0 .254.144.539.535.539a.827.827 0 00.187-.02c4.176-1.425 7.18-5.46 7.18-10.214C22.5 6.324 17.797 1.5 12 1.5zm0 0" />
+          </svg>
+
+          <span class="ml-1  text-grey-light">Github</span>
+        </button>
       </div>
-    </div>
-  </body>
+    </header>
+  </div>
+  <!-- Use both z-index and box shadows for the gallery on the hero page -->
+</body>
+
 </html>
